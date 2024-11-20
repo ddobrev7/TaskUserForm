@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*съобщение за грешка в полетата*/
+.error_message {
+  width: 220px;
+  height: 20px;
+  color: red;
+  margin-top: 0%;
+  margin-left: 4%;
+  font-size: small;
+  background-color: #FFFFFF;
+}
+
+/*съобщение за грешка в полетата*/
+
+/* Image container */
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  margin-top: 10%;
+}
+
+/* Responsive background image */
+.background-image {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  z-index: 1;
+}
+
+/* Centered div */
+.centered-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.success-page-message {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  height: 20%;
+
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 80.82px;
+  height: 80.82px;
+  left: -30px;
+  top: -30px;
+  border-radius: 50px;
+  background: linear-gradient(217.64deg, #9181F4 -5.84%, #5038ED 106.73%);
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 96.22px;
+  height: 96.22px;
+  left: 1850px;
+  top: 1020px;
+  border-radius: 50px;
+  background: #FFFFFF;
+}
+
+
+.group13 {
+  position: absolute;
+  width: 1133px;
+  height: 74px;
+  left: 374px;
+  top: 1116px;
+}
+
+.group14 {
+  position: absolute;
+  width: 238px;
+  height: 74px;
+  left: 74px;
+  top: 616px;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  left: -674px;
+  top: -600px;
+  background: url("../images/489a030dc477aef79dbb8cebc32d2567.jfif") no-repeat center center;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.group1 {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  left: -570px;
+  top: -600px;
+}
+
+.name {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 200px;
+  color: #000000;
+}
+
+.handle {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.email {
+  position: absolute;
+  width: 196px;
+  height: 25px;
+  left: 1600px;
+  top: 41px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
